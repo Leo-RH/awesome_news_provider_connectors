@@ -4,6 +4,8 @@
   "paths": [
     "/portuguese"
   ],
+  "language": "pt",
+  "timezone": "America/Sao_Paulo",
   "splitter": {
     "selector": "li:has(div.promo-text)"
   },
@@ -22,10 +24,7 @@
       "selector": "div.promo-text h3 a"
     },
     "image": {
-      "selector": "div.promo-image img",
-      "attribute": [
-        "src"
-      ]
+      "selector": "div.promo-image img"
     }
   }
 }

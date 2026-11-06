@@ -22,10 +22,7 @@
       "selector": "span.loop-card__cat, a.loop-card__cat"
     },
     "image": {
-      "selector": "img.wp-post-image",
-      "attribute": [
-        "src"
-      ]
+      "selector": "img.wp-post-image"
     }
   }
 }

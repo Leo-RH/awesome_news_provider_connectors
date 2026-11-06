@@ -21,11 +21,7 @@
       "selector": "a.c-span__link"
     },
     "image": {
-      "selector": "img.c-lazy-image__img",
-      "attribute": [
-        "data-lazy-src",
-        "src"
-      ]
+      "selector": "img.c-lazy-image__img"
     }
   }
 }

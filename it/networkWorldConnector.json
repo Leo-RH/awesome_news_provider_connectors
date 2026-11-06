@@ -1,0 +1,27 @@
+{
+  "name": "Network World",
+  "source": "https://www.networkworld.com",
+  "paths": [
+    "/news/"
+  ],
+  "splitter": {
+    "selector": "a.content-row-article"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h3.card__title"
+    },
+    "description": {
+      "selector": "p.card__description"
+    },
+    "date": {
+      "selector": "div.card__info--light > span"
+    },
+    "link": {
+      "selector": ":self"
+    },
+    "topic": {
+      "selector": "span.card__tag span.tag"
+    }
+  }
+}

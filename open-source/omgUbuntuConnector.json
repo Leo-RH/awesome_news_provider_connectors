@@ -18,10 +18,7 @@
       "selector": "a.layout__title-link"
     },
     "image": {
-      "selector": "img.wp-post-image",
-      "attribute": [
-        "src"
-      ]
+      "selector": "img.wp-post-image"
     }
   }
 }

@@ -4,6 +4,8 @@
   "paths": [
     "/"
   ],
+  "language": "pt",
+  "timezone": "America/Sao_Paulo",
   "splitter": {
     "selector": "div.item:has(h2), li:has(div.thumb)"
   },
@@ -21,10 +23,7 @@
       "selector": "a.tag"
     },
     "image": {
-      "selector": "img",
-      "attribute": [
-        "src"
-      ]
+      "selector": "img"
     }
   }
 }

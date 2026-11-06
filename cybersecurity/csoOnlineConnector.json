@@ -18,8 +18,7 @@
       "selector": "div.card__info > span"
     },
     "link": {
-      "selector": "div.card[href]",
-      "attribute": "href"
+      "selector": ":self"
     },
     "topic": {
       "selector": "span.card__tag span.tag"

@@ -1,0 +1,8 @@
+{
+  "name": "GameSpot",
+  "source": "https://www.gamespot.com",
+  "type": "rss",
+  "paths": [
+    "/feeds/news/"
+  ]
+}

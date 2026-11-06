@@ -21,10 +21,7 @@
       "selector": "div.hds-content-item-inner div.label span"
     },
     "image": {
-      "selector": "figure img",
-      "attribute": [
-        "src"
-      ]
+      "selector": "figure img"
     }
   }
 }

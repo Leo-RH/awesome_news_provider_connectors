@@ -4,6 +4,8 @@
   "paths": [
     "/"
   ],
+  "language": "pt",
+  "timezone": "America/Sao_Paulo",
   "splitter": {
     "selector": "div.content-inline-text:has(h2)"
   },

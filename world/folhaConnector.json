@@ -1,0 +1,34 @@
+{
+  "name": "Folha de S.Paulo",
+  "source": "https://www1.folha.uol.com.br",
+  "paths": [
+    "/ultimas-noticias/"
+  ],
+  "language": "pt",
+  "timezone": "America/Sao_Paulo",
+  "limit": 40,
+  "splitter": {
+    "selector": "li.c-headline--newslist"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h2.c-headline__title"
+    },
+    "description": {
+      "selector": "p.c-headline__standfirst"
+    },
+    "date": {
+      "selector": "time.c-headline__dateline",
+      "attribute": "datetime"
+    },
+    "link": {
+      "selector": "div.c-headline__content a"
+    },
+    "topic": {
+      "selector": "h3.c-kicker a"
+    },
+    "image": {
+      "selector": "img.c-headline__image"
+    }
+  }
+}

@@ -24,10 +24,7 @@
       "selector": "div.text-uppercase p"
     },
     "image": {
-      "selector": "figure img",
-      "attribute": [
-        "src"
-      ]
+      "selector": "figure img"
     }
   }
 }

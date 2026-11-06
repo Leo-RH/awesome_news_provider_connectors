@@ -5,6 +5,7 @@
     "/en/blog"
   ],
   "limit": 20,
+  "parser": "html.parser",
   "splitter": {
     "selector": "div.blog_index"
   },

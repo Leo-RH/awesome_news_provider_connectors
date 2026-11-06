@@ -14,14 +14,16 @@
     "description": {
       "selector": "p.display-card-excerpt"
     },
+    "date": {
+      "selector": "span.display-card-date",
+      "attribute": "data-b64-ts",
+      "transform": "base64"
+    },
     "link": {
       "selector": "h5.display-card-title a"
     },
     "image": {
-      "selector": "a.dc-img-link img",
-      "attribute": [
-        "src"
-      ]
+      "selector": "a.dc-img-link img"
     }
   }
 }

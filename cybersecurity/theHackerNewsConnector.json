@@ -28,8 +28,7 @@
       "selector": "span.h-tags"
     },
     "image": {
-      "selector": "img.home-img-src",
-      "attribute": ["data-src", "src"]
+      "selector": "img.home-img-src"
     }
   }
 }

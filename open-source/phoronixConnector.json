@@ -1,0 +1,8 @@
+{
+  "name": "Phoronix",
+  "source": "https://www.phoronix.com",
+  "type": "rss",
+  "paths": [
+    "/rss.php"
+  ]
+}

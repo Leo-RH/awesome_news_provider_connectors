@@ -1,0 +1,34 @@
+{
+  "name": "LWN.net",
+  "source": "https://lwn.net",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "h2.Headline",
+    "group": "siblings"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h2.Headline",
+      "regex": "^(?:\\[\\s*\\$?\\s*\\]\\s*)?(.+)$"
+    },
+    "description": {
+      "selector": "p"
+    },
+    "date": {
+      "selector": "span.Smaller",
+      "regex": "Posted (.+? UTC)"
+    },
+    "link": {
+      "selector": [
+        "a:-soup-contains('Full Story')",
+        "a[href^='/Articles/']"
+      ]
+    },
+    "topic": {
+      "selector": "span.Smaller",
+      "regex": "^\\[(.+?)\\]"
+    }
+  }
+}

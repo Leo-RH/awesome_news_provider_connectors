@@ -15,8 +15,7 @@
       "selector": "a.post-item__title-link"
     },
     "image": {
-      "selector": "figure.post-item__thumbnail img",
-      "attribute": ["src", "srcset"]
+      "selector": "figure.post-item__thumbnail img"
     }
   }
 }

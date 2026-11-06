@@ -1,0 +1,9 @@
+{
+  "name": "Hugging Face Blog",
+  "source": "https://huggingface.co",
+  "type": "rss",
+  "paths": [
+    "/blog/feed.xml"
+  ],
+  "limit": 30
+}

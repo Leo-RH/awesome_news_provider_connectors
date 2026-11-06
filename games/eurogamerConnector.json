@@ -25,11 +25,7 @@
       "selector": "div.archive__type"
     },
     "image": {
-      "selector": "div.thumbnail img",
-      "attribute": [
-        "data-src",
-        "src"
-      ]
+      "selector": "div.thumbnail img"
     }
   }
 }

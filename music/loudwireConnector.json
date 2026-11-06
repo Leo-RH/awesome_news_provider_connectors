@@ -18,10 +18,7 @@
       "selector": "a.title"
     },
     "image": {
-      "selector": "a.theframe img",
-      "attribute": [
-        "src"
-      ]
+      "selector": "a.theframe img"
     }
   }
 }

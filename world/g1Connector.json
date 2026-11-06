@@ -7,6 +7,8 @@
     "/politica/",
     "/economia/"
   ],
+  "language": "pt",
+  "timezone": "America/Sao_Paulo",
   "splitter": {
     "selector": "div.feed-post:has(a.feed-post-link[href])"
   },
@@ -27,10 +29,7 @@
       "selector": "span.feed-post-metadata-section"
     },
     "image": {
-      "selector": "img.bstn-fd-picture-image",
-      "attribute": [
-        "src"
-      ]
+      "selector": "img.bstn-fd-picture-image"
     }
   }
 }

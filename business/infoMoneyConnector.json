@@ -4,6 +4,8 @@
   "paths": [
     "/ultimas-noticias/"
   ],
+  "language": "pt",
+  "timezone": "America/Sao_Paulo",
   "splitter": {
     "selector": "div.flex-col.gap-4:has(h2 a)"
   },
@@ -21,11 +23,7 @@
       "selector": "div.line-clamp-1 a div"
     },
     "image": {
-      "selector": "img",
-      "attribute": [
-        "data-src",
-        "src"
-      ]
+      "selector": "img"
     }
   }
 }

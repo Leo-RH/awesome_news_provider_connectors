@@ -1,0 +1,8 @@
+{
+  "name": "Dark Reading",
+  "source": "https://www.darkreading.com",
+  "type": "rss",
+  "paths": [
+    "/rss.xml"
+  ]
+}

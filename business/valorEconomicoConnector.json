@@ -4,6 +4,8 @@
   "paths": [
     "/ultimas-noticias/"
   ],
+  "language": "pt",
+  "timezone": "America/Sao_Paulo",
   "splitter": {
     "selector": "div.feed-post"
   },
@@ -24,10 +26,7 @@
       "selector": "span.feed-post-metadata-section, a.hat"
     },
     "image": {
-      "selector": "img.bstn-fd-picture-image",
-      "attribute": [
-        "src"
-      ]
+      "selector": "img.bstn-fd-picture-image"
     }
   }
 }

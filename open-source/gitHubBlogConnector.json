@@ -25,10 +25,7 @@
       "selector": "a.first-post-category"
     },
     "image": {
-      "selector": "img.wp-post-image",
-      "attribute": [
-        "src"
-      ]
+      "selector": "img.wp-post-image"
     }
   }
 }

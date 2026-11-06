@@ -4,6 +4,8 @@
   "paths": [
     "/"
   ],
+  "language": "pt",
+  "timezone": "America/Sao_Paulo",
   "splitter": {
     "selector": "div.card.news-card"
   },
@@ -21,10 +23,7 @@
       "selector": "div.meta-category"
     },
     "image": {
-      "selector": "img.thumbnail-img",
-      "attribute": [
-        "data-src"
-      ]
+      "selector": "img.thumbnail-img"
     }
   }
 }

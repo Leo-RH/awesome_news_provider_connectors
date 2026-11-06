@@ -21,10 +21,7 @@
       "selector": "a[class*=Eyebrow_wrapper] span"
     },
     "image": {
-      "selector": "figure img",
-      "attribute": [
-        "src"
-      ]
+      "selector": "figure img"
     }
   }
 }

@@ -22,10 +22,7 @@
       "selector": "h3 a"
     },
     "image": {
-      "selector": "img",
-      "attribute": [
-        "src"
-      ]
+      "selector": "img"
     }
   }
 }

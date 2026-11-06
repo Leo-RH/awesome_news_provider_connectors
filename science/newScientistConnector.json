@@ -1,0 +1,27 @@
+{
+  "name": "New Scientist",
+  "source": "https://www.newscientist.com",
+  "paths": [
+    "/section/news/"
+  ],
+  "splitter": {
+    "selector": "a.content-item"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h3.content-item__title"
+    },
+    "description": {
+      "selector": "p.content-item__excerpt"
+    },
+    "link": {
+      "selector": ":self"
+    },
+    "topic": {
+      "selector": "h4.content-item__subject"
+    },
+    "image": {
+      "selector": "div.content-item__image img"
+    }
+  }
+}

@@ -4,6 +4,8 @@
   "paths": [
     "/"
   ],
+  "language": "pt",
+  "timezone": "America/Sao_Paulo",
   "splitter": {
     "selector": "article.blog-post"
   },
@@ -24,10 +26,7 @@
       "selector": "div.post-categories a"
     },
     "image": {
-      "selector": "img.wp-post-image",
-      "attribute": [
-        "data-src-img"
-      ]
+      "selector": "img.wp-post-image"
     }
   }
 }

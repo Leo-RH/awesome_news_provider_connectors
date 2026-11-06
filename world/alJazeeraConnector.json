@@ -21,10 +21,7 @@
       "selector": "a.article-card__link"
     },
     "image": {
-      "selector": "img.article-card__image",
-      "attribute": [
-        "src"
-      ]
+      "selector": "img.article-card__image"
     }
   }
 }

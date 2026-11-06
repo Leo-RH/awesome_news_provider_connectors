@@ -1,0 +1,8 @@
+{
+  "name": "Android Authority",
+  "source": "https://www.androidauthority.com",
+  "type": "rss",
+  "paths": [
+    "/feed/"
+  ]
+}

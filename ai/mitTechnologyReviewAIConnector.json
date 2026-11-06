@@ -1,0 +1,8 @@
+{
+  "name": "MIT Technology Review - AI",
+  "source": "https://www.technologyreview.com",
+  "type": "rss",
+  "paths": [
+    "/topic/artificial-intelligence/feed"
+  ]
+}

@@ -4,8 +4,11 @@
   "paths": [
     "/"
   ],
+  "language": "pt",
+  "timezone": "America/Sao_Paulo",
   "splitter": {
-    "selector": "article.card:has(h2.card__title):has(a.card__link[href])"
+    "selector": "article.card:has(h2.card__title):has(a.card__link[href])",
+    "exclude": "a.card__link[href*='/ficha/']"
   },
   "patterns": {
     "title": {
@@ -18,10 +21,7 @@
       "selector": "div.badge"
     },
     "image": {
-      "selector": "figure.card__image img",
-      "attribute": [
-        "src"
-      ]
+      "selector": "figure.card__image img"
     }
   }
 }

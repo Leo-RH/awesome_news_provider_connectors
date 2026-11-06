@@ -4,6 +4,7 @@
   "paths": [
     "/latest/"
   ],
+  "parser": "html.parser",
   "splitter": {
     "selector": "article[class*=articleListItem]"
   },
@@ -25,10 +26,7 @@
       "regex": "^(.+?)(?=[A-Z][a-z]+ \\d{1,2}, \\d{4}|$)"
     },
     "image": {
-      "selector": "figure img",
-      "attribute": [
-        "src"
-      ]
+      "selector": "figure img"
     }
   }
 }

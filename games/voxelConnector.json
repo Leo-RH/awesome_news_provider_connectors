@@ -1,0 +1,10 @@
+{
+  "name": "Voxel",
+  "source": "https://www.estadao.com.br/tecmundo/voxel",
+  "type": "rss",
+  "paths": [
+    "https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/voxel/?body=%7B%22layout%22:%22google-news%22%7D"
+  ],
+  "language": "pt",
+  "timezone": "America/Sao_Paulo"
+}

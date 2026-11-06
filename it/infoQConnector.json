@@ -24,10 +24,7 @@
       "selector": "div.card__topics a"
     },
     "image": {
-      "selector": "img.card__image",
-      "attribute": [
-        "src"
-      ]
+      "selector": "img.card__image"
     }
   }
 }

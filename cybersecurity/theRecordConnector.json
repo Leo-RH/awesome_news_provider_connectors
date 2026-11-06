@@ -1,0 +1,28 @@
+{
+  "name": "The Record",
+  "source": "https://therecord.media",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": [
+      "a.featured-articles__article",
+      "div.latest-articles__list > a"
+    ]
+  },
+  "patterns": {
+    "title": {
+      "selector": "h2"
+    },
+    "date": {
+      "selector": "span.text-xs",
+      "regex": "\\|\\s*(.+)"
+    },
+    "link": {
+      "selector": ":self"
+    },
+    "image": {
+      "selector": "img"
+    }
+  }
+}

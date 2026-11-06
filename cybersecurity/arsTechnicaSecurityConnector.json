@@ -1,0 +1,8 @@
+{
+  "name": "Ars Technica - Security",
+  "source": "https://arstechnica.com",
+  "type": "rss",
+  "paths": [
+    "/security/feed/"
+  ]
+}

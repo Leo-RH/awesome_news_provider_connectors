@@ -1,0 +1,8 @@
+{
+  "name": "Financial Times - World",
+  "source": "https://www.ft.com",
+  "type": "rss",
+  "paths": [
+    "/world?format=rss"
+  ]
+}

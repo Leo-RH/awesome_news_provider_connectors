@@ -25,11 +25,7 @@
       "selector": "a.post-card__tag"
     },
     "image": {
-      "selector": "img.post-card__img",
-      "attribute": [
-        "data-src",
-        "src"
-      ]
+      "selector": "img.post-card__img"
     }
   }
 }

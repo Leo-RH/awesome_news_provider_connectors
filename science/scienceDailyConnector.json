@@ -1,0 +1,27 @@
+{
+  "name": "ScienceDaily",
+  "source": "https://www.sciencedaily.com",
+  "paths": [
+    "/news/top/science/"
+  ],
+  "splitter": {
+    "selector": "div.latest-head",
+    "group": "siblings"
+  },
+  "patterns": {
+    "title": {
+      "selector": "div.latest-head a"
+    },
+    "description": {
+      "selector": "div.latest-summary",
+      "regex": "^(?:[A-Z][a-z]+\\.? \\d{1,2}, \\d{4})?\\s*[—–-]?\\s*(.+)$"
+    },
+    "date": {
+      "selector": "span.story-date",
+      "regex": "^(.+?\\d{4})"
+    },
+    "link": {
+      "selector": "div.latest-head a"
+    }
+  }
+}

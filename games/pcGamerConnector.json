@@ -26,11 +26,7 @@
       "selector": "a.category-link"
     },
     "image": {
-      "selector": "figure img",
-      "attribute": [
-        "data-src",
-        "src"
-      ]
+      "selector": "figure img"
     }
   }
 }

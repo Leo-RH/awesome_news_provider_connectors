@@ -18,10 +18,7 @@
       "selector": "div.mf-tags a.mf-tag"
     },
     "image": {
-      "selector": "a.mf-cover img",
-      "attribute": [
-        "src"
-      ]
+      "selector": "a.mf-cover img"
     }
   }
 }

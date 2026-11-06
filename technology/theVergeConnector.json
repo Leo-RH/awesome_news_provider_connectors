@@ -19,10 +19,7 @@
       "selector": "a[href]"
     },
     "image": {
-      "selector": "img",
-      "attribute": [
-        "src"
-      ]
+      "selector": "img"
     }
   }
 }

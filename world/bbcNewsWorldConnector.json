@@ -24,10 +24,7 @@
       "selector": "[data-testid=card-metadata-tag]"
     },
     "image": {
-      "selector": "[data-testid=card-media] img:not(.hide-when-no-script)",
-      "attribute": [
-        "src"
-      ]
+      "selector": "[data-testid=card-media] img:not(.hide-when-no-script)"
     }
   }
 }

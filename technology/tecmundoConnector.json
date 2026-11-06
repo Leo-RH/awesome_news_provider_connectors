@@ -4,6 +4,8 @@
   "paths": [
     "/"
   ],
+  "language": "pt",
+  "timezone": "America/Sao_Paulo",
   "splitter": {
     "selector": "div.noticia-single-block"
   },
@@ -18,11 +20,7 @@
       "selector": "div.chapeu div.container-text"
     },
     "image": {
-      "selector": "div.image img",
-      "attribute": [
-        "data-src",
-        "src"
-      ]
+      "selector": "div.image img"
     }
   }
 }

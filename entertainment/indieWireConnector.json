@@ -25,10 +25,7 @@
       "selector": "div[class^=_badges_] div"
     },
     "image": {
-      "selector": "figure img",
-      "attribute": [
-        "src"
-      ]
+      "selector": "figure img"
     }
   }
 }
