@@ -1,0 +1,34 @@
+{
+  "name": "IndieWire",
+  "source": "https://www.indiewire.com",
+  "paths": [
+    "/c/news/"
+  ],
+  "splitter": {
+    "selector": "div[class^=_card_]:has(time)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "div[class^=_badges_] + div a"
+    },
+    "description": {
+      "selector": "div[class^=_badges_] + div + div"
+    },
+    "date": {
+      "selector": "time",
+      "attribute": "datetime"
+    },
+    "link": {
+      "selector": "div[class^=_badges_] + div a"
+    },
+    "topic": {
+      "selector": "div[class^=_badges_] div"
+    },
+    "image": {
+      "selector": "figure img",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

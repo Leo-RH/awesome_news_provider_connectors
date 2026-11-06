@@ -1,0 +1,33 @@
+{
+  "name": "Valor Econômico",
+  "source": "https://valor.globo.com",
+  "paths": [
+    "/ultimas-noticias/"
+  ],
+  "splitter": {
+    "selector": "div.feed-post"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a.feed-post-link"
+    },
+    "description": {
+      "selector": "div.feed-post-body-resumo"
+    },
+    "date": {
+      "selector": "span.feed-post-datetime"
+    },
+    "link": {
+      "selector": "a.feed-post-link"
+    },
+    "topic": {
+      "selector": "span.feed-post-metadata-section, a.hat"
+    },
+    "image": {
+      "selector": "img.bstn-fd-picture-image",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

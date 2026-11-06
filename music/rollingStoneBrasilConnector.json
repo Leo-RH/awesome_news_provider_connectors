@@ -1,0 +1,21 @@
+{
+  "name": "Rolling Stone Brasil",
+  "source": "https://rollingstone.com.br",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "div.content-inline-text:has(h2)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h2"
+    },
+    "link": {
+      "selector": "a[href]"
+    },
+    "topic": {
+      "selector": "span.categoria-media-home"
+    }
+  }
+}

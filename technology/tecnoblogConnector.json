@@ -1,0 +1,32 @@
+{
+  "name": "Tecnoblog",
+  "source": "https://tecnoblog.net",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "article.article-destaque"
+  },
+  "patterns": {
+    "title": {
+      "selector": "div.texts h2"
+    },
+    "date": {
+      "selector": "time",
+      "attribute": "datetime"
+    },
+    "link": {
+      "selector": "a[href]"
+    },
+    "topic": {
+      "selector": "span.catname"
+    },
+    "image": {
+      "selector": "div.thumb img",
+      "attribute": [
+        "data-src",
+        "src"
+      ]
+    }
+  }
+}

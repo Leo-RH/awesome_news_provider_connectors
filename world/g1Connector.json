@@ -1,0 +1,36 @@
+{
+  "name": "G1",
+  "source": "https://g1.globo.com",
+  "paths": [
+    "/",
+    "/mundo/",
+    "/politica/",
+    "/economia/"
+  ],
+  "splitter": {
+    "selector": "div.feed-post:has(a.feed-post-link[href])"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a.feed-post-link"
+    },
+    "description": {
+      "selector": "div.feed-post-body-resumo"
+    },
+    "date": {
+      "selector": "span.feed-post-datetime"
+    },
+    "link": {
+      "selector": "a.feed-post-link"
+    },
+    "topic": {
+      "selector": "span.feed-post-metadata-section"
+    },
+    "image": {
+      "selector": "img.bstn-fd-picture-image",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

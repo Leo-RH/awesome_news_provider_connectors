@@ -1,0 +1,28 @@
+{
+  "name": "The Guardian - World",
+  "source": "https://www.theguardian.com",
+  "paths": [
+    "/world"
+  ],
+  "splitter": {
+    "selector": "li:has(> div .card-headline)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h3.card-headline .headline-text"
+    },
+    "date": {
+      "selector": "time",
+      "attribute": "datetime"
+    },
+    "link": {
+      "selector": "a[href]"
+    },
+    "image": {
+      "selector": "picture img",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

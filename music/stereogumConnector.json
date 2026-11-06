@@ -1,0 +1,30 @@
+{
+  "name": "Stereogum",
+  "source": "https://www.stereogum.com",
+  "paths": [
+    "/category/news"
+  ],
+  "splitter": {
+    "selector": "div[class*=PostCard_stackedWrapper]"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h3[class*=PostCard_title]"
+    },
+    "date": {
+      "selector": "div[class*=PostCard_dateWrapper] span"
+    },
+    "link": {
+      "selector": "a[class*=PostCard_titleLink]"
+    },
+    "topic": {
+      "selector": "a[class*=Eyebrow_wrapper] span"
+    },
+    "image": {
+      "selector": "figure img",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

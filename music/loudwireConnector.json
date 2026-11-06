@@ -1,0 +1,27 @@
+{
+  "name": "Loudwire",
+  "source": "https://loudwire.com",
+  "paths": [
+    "/category/news/"
+  ],
+  "splitter": {
+    "selector": "article:has(a.title)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a.title"
+    },
+    "description": {
+      "selector": "div.excerpt"
+    },
+    "link": {
+      "selector": "a.title"
+    },
+    "image": {
+      "selector": "a.theframe img",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

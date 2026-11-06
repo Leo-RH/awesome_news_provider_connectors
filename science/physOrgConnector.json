@@ -1,0 +1,33 @@
+{
+  "name": "Phys.org",
+  "source": "https://phys.org",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "article.sorted-article"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a.news-link"
+    },
+    "description": {
+      "selector": "div.sorted-article-content > p"
+    },
+    "date": {
+      "selector": "div.article__info p.text-low:not(:has(*))"
+    },
+    "link": {
+      "selector": "a.news-link"
+    },
+    "topic": {
+      "selector": "div.text-uppercase p"
+    },
+    "image": {
+      "selector": "figure img",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

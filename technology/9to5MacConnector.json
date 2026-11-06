@@ -1,0 +1,33 @@
+{
+  "name": "9to5Mac",
+  "source": "https://9to5mac.com",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "article.article.standard"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a.article__title-link"
+    },
+    "description": {
+      "selector": "div.article__excerpt p"
+    },
+    "date": {
+      "selector": "span.meta__post-date"
+    },
+    "link": {
+      "selector": "a.article__title-link"
+    },
+    "topic": {
+      "selector": "li.meta__guide a"
+    },
+    "image": {
+      "selector": "img.wp-post-image",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

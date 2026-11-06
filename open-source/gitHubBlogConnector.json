@@ -1,0 +1,34 @@
+{
+  "name": "The GitHub Blog",
+  "source": "https://github.blog",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "li.wp-block-post:has(a.post-card__link)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a.post-card__link"
+    },
+    "description": {
+      "selector": "h2 + p, a.post-card__link + p"
+    },
+    "date": {
+      "selector": "time",
+      "attribute": "datetime"
+    },
+    "link": {
+      "selector": "a.post-card__link"
+    },
+    "topic": {
+      "selector": "a.first-post-category"
+    },
+    "image": {
+      "selector": "img.wp-post-image",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

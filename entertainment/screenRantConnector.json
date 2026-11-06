@@ -1,0 +1,30 @@
+{
+  "name": "Screen Rant",
+  "source": "https://screenrant.com",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "div.display-card:has(h5.display-card-title a)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h5.display-card-title a"
+    },
+    "description": {
+      "selector": "p.display-card-excerpt"
+    },
+    "link": {
+      "selector": "h5.display-card-title a"
+    },
+    "topic": {
+      "selector": "div.w-display-card-category a"
+    },
+    "image": {
+      "selector": "a.dc-img-link img",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Pipoca Moderna",
+  "source": "https://pipocamoderna.com.br",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "article.blog-post"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h2.post-title a"
+    },
+    "description": {
+      "selector": "p.post-subtitle"
+    },
+    "date": {
+      "selector": "span.post-date"
+    },
+    "link": {
+      "selector": "h2.post-title a"
+    },
+    "topic": {
+      "selector": "div.post-categories a"
+    },
+    "image": {
+      "selector": "img.wp-post-image",
+      "attribute": [
+        "data-src-img"
+      ]
+    }
+  }
+}

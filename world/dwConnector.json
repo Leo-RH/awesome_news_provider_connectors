@@ -1,0 +1,24 @@
+{
+  "name": "DW - Top Stories",
+  "source": "https://www.dw.com",
+  "paths": [
+    "/en/top-stories/s-9097"
+  ],
+  "splitter": {
+    "selector": "div.teaser-wrap:has(h4.title a)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h4.title a"
+    },
+    "date": {
+      "selector": "span.date-time time"
+    },
+    "link": {
+      "selector": "h4.title a"
+    },
+    "topic": {
+      "selector": "span.kicker"
+    }
+  }
+}

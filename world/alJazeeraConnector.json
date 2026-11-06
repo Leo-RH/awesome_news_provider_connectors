@@ -1,0 +1,30 @@
+{
+  "name": "Al Jazeera",
+  "source": "https://www.aljazeera.com",
+  "paths": [
+    "/news/"
+  ],
+  "splitter": {
+    "selector": "article.article-card"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h2.article-card__title"
+    },
+    "description": {
+      "selector": "p.article-card__excerpt"
+    },
+    "date": {
+      "selector": "div.date-simple span:not(.screen-reader-text)"
+    },
+    "link": {
+      "selector": "a.article-card__link"
+    },
+    "image": {
+      "selector": "img.article-card__image",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

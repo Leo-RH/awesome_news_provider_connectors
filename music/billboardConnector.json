@@ -1,0 +1,34 @@
+{
+  "name": "Billboard",
+  "source": "https://www.billboard.com",
+  "paths": [
+    "/c/music/music-news/"
+  ],
+  "splitter": {
+    "selector": "div.story:has(a.c-title__link)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a.c-title__link"
+    },
+    "description": {
+      "selector": "p.c-dek"
+    },
+    "date": {
+      "selector": "time.c-timestamp"
+    },
+    "link": {
+      "selector": "a.c-title__link"
+    },
+    "topic": {
+      "selector": "a.o-category-link, span.c-span a, span.c-span"
+    },
+    "image": {
+      "selector": "img.c-lazy-image__img",
+      "attribute": [
+        "data-lazy-src",
+        "src"
+      ]
+    }
+  }
+}

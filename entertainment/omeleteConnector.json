@@ -1,0 +1,27 @@
+{
+  "name": "Omelete",
+  "source": "https://www.omelete.com.br",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "article.card:has(h2.card__title):has(a.card__link[href])"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h2.card__title"
+    },
+    "link": {
+      "selector": "a.card__link"
+    },
+    "topic": {
+      "selector": "div.badge"
+    },
+    "image": {
+      "selector": "figure.card__image img",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

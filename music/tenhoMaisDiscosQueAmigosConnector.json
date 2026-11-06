@@ -1,0 +1,28 @@
+{
+  "name": "Tenho Mais Discos Que Amigos!",
+  "source": "https://www.tenhomaisdiscosqueamigos.com",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "article.feed:has(h2.feed-title)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h2.feed-title"
+    },
+    "description": {
+      "selector": "p.feed-excert"
+    },
+    "link": {
+      "selector": "a.feed-link"
+    },
+    "image": {
+      "selector": "figure img",
+      "attribute": [
+        "data-src",
+        "data-lazy-src"
+      ]
+    }
+  }
+}

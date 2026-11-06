@@ -1,0 +1,28 @@
+{
+  "name": "The Verge",
+  "source": "https://www.theverge.com",
+  "paths": [
+    "/tech"
+  ],
+  "splitter": {
+    "selector": "div.duet--content-cards--content-card:has(time):not(.duet--content-cards--quick-post)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a[href]"
+    },
+    "date": {
+      "selector": "time",
+      "attribute": "datetime"
+    },
+    "link": {
+      "selector": "a[href]"
+    },
+    "image": {
+      "selector": "img",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Deadline",
+  "source": "https://deadline.com",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "div.o-card:has(a.c-title__link), div.pmc-a-grid:has(> div > h3 > a.c-title__link)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a.c-title__link"
+    },
+    "link": {
+      "selector": "a.c-title__link"
+    },
+    "topic": {
+      "selector": "h3.c-title a:not(.c-title__link)"
+    },
+    "image": {
+      "selector": "img.c-figure__image",
+      "attribute": [
+        "data-lazy-src",
+        "src"
+      ]
+    }
+  }
+}

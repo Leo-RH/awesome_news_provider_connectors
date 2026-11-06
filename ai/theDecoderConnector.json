@@ -1,0 +1,32 @@
+{
+  "name": "The Decoder",
+  "source": "https://the-decoder.com",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "article.post"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h2, div.entry-content > a span.sr-only",
+      "regex": "(?:Read full article about:\\s*)?(.+)"
+    },
+    "date": {
+      "selector": "div.grid-author",
+      "regex": "([A-Z][a-z]{2} \\d{1,2}, \\d{4})"
+    },
+    "link": {
+      "selector": "a:has(h2), h2 a, div.entry-content > a"
+    },
+    "topic": {
+      "selector": "div.grid-category a"
+    },
+    "image": {
+      "selector": "figure img",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

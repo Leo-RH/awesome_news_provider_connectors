@@ -1,0 +1,35 @@
+{
+  "name": "Eurogamer",
+  "source": "https://www.eurogamer.net",
+  "paths": [
+    "/news"
+  ],
+  "splitter": {
+    "selector": "article.archive__item"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h2.archive__title a"
+    },
+    "description": {
+      "selector": "div.archive__strapline"
+    },
+    "date": {
+      "selector": "time.archive__date",
+      "attribute": "datetime"
+    },
+    "link": {
+      "selector": "h2.archive__title a"
+    },
+    "topic": {
+      "selector": "div.archive__type"
+    },
+    "image": {
+      "selector": "div.thumbnail img",
+      "attribute": [
+        "data-src",
+        "src"
+      ]
+    }
+  }
+}

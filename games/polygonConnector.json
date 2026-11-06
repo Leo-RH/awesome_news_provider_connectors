@@ -1,0 +1,27 @@
+{
+  "name": "Polygon",
+  "source": "https://www.polygon.com",
+  "paths": [
+    "/news/"
+  ],
+  "splitter": {
+    "selector": "div.display-card.article:has(h5.display-card-title a)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h5.display-card-title a"
+    },
+    "description": {
+      "selector": "p.display-card-excerpt"
+    },
+    "link": {
+      "selector": "h5.display-card-title a"
+    },
+    "image": {
+      "selector": "a.dc-img-link img",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

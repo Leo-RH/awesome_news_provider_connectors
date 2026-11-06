@@ -1,0 +1,31 @@
+{
+  "name": "Variety - TV",
+  "source": "https://variety.com",
+  "paths": [
+    "/v/tv/"
+  ],
+  "splitter": {
+    "selector": "article.o-tease:has(a.c-title__link)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a.c-title__link"
+    },
+    "date": {
+      "selector": "time.c-timestamp"
+    },
+    "link": {
+      "selector": "a.c-title__link"
+    },
+    "topic": {
+      "selector": "a.c-span__link"
+    },
+    "image": {
+      "selector": "img.c-lazy-image__img",
+      "attribute": [
+        "data-lazy-src",
+        "src"
+      ]
+    }
+  }
+}

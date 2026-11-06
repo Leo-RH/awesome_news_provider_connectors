@@ -1,0 +1,30 @@
+{
+  "name": "Flow Games",
+  "source": "https://flowgames.gg",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "div.item:has(h2), li:has(div.thumb)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h2, h3 a"
+    },
+    "date": {
+      "selector": "span.data"
+    },
+    "link": {
+      "selector": "a.title-link, h3 a"
+    },
+    "topic": {
+      "selector": "a.tag"
+    },
+    "image": {
+      "selector": "img",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

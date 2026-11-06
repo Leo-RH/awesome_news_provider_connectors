@@ -1,0 +1,35 @@
+{
+  "name": "Space.com",
+  "source": "https://www.space.com",
+  "paths": [
+    "/news"
+  ],
+  "splitter": {
+    "selector": "div.listingResult:has(a.article-link)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "div.article-name, h3.article-name"
+    },
+    "description": {
+      "selector": "p.synopsis"
+    },
+    "date": {
+      "selector": "time",
+      "attribute": "datetime"
+    },
+    "link": {
+      "selector": "a.article-link"
+    },
+    "topic": {
+      "selector": "a.category-link"
+    },
+    "image": {
+      "selector": "figure img",
+      "attribute": [
+        "data-src",
+        "src"
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "VentureBeat - AI",
+  "source": "https://venturebeat.com",
+  "paths": [
+    "/category/ai/"
+  ],
+  "splitter": {
+    "selector": "article:has(header h2 a)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "header h2 a"
+    },
+    "description": {
+      "selector": "div.line-clamp-3"
+    },
+    "date": {
+      "selector": "time",
+      "attribute": "datetime"
+    },
+    "link": {
+      "selector": "header h2 a"
+    },
+    "image": {
+      "selector": "figure img",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

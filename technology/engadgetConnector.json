@@ -1,0 +1,27 @@
+{
+  "name": "Engadget",
+  "source": "https://www.engadget.com",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "li.article-item:has(article.article-block)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "div.article-description h1 a, div.article-description h3 a, div.article-description h2 a"
+    },
+    "description": {
+      "selector": "p.article-excerpt"
+    },
+    "link": {
+      "selector": "div.article-description a"
+    },
+    "topic": {
+      "selector": "div.category-label a"
+    },
+    "image": {
+      "selector": "div.image-holder img"
+    }
+  }
+}

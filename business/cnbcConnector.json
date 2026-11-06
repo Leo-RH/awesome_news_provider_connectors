@@ -1,0 +1,21 @@
+{
+  "name": "CNBC",
+  "source": "https://www.cnbc.com",
+  "paths": [
+    "/world/"
+  ],
+  "splitter": {
+    "selector": "li.LatestNews-item"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a.LatestNews-headline"
+    },
+    "date": {
+      "selector": "time.LatestNews-timestamp"
+    },
+    "link": {
+      "selector": "a.LatestNews-headline"
+    }
+  }
+}

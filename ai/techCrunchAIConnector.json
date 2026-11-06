@@ -1,0 +1,31 @@
+{
+  "name": "TechCrunch - AI",
+  "source": "https://techcrunch.com",
+  "paths": [
+    "/category/artificial-intelligence/"
+  ],
+  "splitter": {
+    "selector": "li.wp-block-post"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a.loop-card__title-link"
+    },
+    "date": {
+      "selector": "time.loop-card__time",
+      "attribute": "datetime"
+    },
+    "link": {
+      "selector": "a.loop-card__title-link"
+    },
+    "topic": {
+      "selector": "span.loop-card__cat, a.loop-card__cat"
+    },
+    "image": {
+      "selector": "img.wp-post-image",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

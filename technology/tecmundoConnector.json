@@ -1,0 +1,28 @@
+{
+  "name": "Tecmundo",
+  "source": "https://www.estadao.com.br/tecmundo",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "div.noticia-single-block"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h2.headline"
+    },
+    "link": {
+      "selector": "a:has(h2.headline)"
+    },
+    "topic": {
+      "selector": "div.chapeu div.container-text"
+    },
+    "image": {
+      "selector": "div.image img",
+      "attribute": [
+        "data-src",
+        "src"
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "It's FOSS News",
+  "source": "https://itsfoss.com",
+  "paths": [
+    "/news/"
+  ],
+  "splitter": {
+    "selector": "article.post-card"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h2.post-card__title a"
+    },
+    "description": {
+      "selector": "div.post-card__excerpt"
+    },
+    "date": {
+      "selector": "time",
+      "attribute": "datetime"
+    },
+    "link": {
+      "selector": "h2.post-card__title a"
+    },
+    "topic": {
+      "selector": "a.post-card__tag"
+    },
+    "image": {
+      "selector": "img.post-card__img",
+      "attribute": [
+        "data-src",
+        "src"
+      ]
+    }
+  }
+}

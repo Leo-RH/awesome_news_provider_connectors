@@ -1,0 +1,33 @@
+{
+  "name": "InfoQ",
+  "source": "https://www.infoq.com",
+  "paths": [
+    "/news/"
+  ],
+  "splitter": {
+    "selector": "li:has(span.card__date)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h3.card__title a"
+    },
+    "description": {
+      "selector": "p.card__excerpt"
+    },
+    "date": {
+      "selector": "span.card__date span"
+    },
+    "link": {
+      "selector": "h3.card__title a"
+    },
+    "topic": {
+      "selector": "div.card__topics a"
+    },
+    "image": {
+      "selector": "img.card__image",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

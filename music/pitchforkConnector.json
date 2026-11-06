@@ -1,0 +1,31 @@
+{
+  "name": "Pitchfork",
+  "source": "https://pitchfork.com",
+  "paths": [
+    "/news/"
+  ],
+  "limit": 30,
+  "splitter": {
+    "selector": "div.summary-item:has(h3.summary-item__hed)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h3.summary-item__hed"
+    },
+    "description": {
+      "selector": "div.summary-item__dek"
+    },
+    "date": {
+      "selector": "time.summary-item__publish-date"
+    },
+    "link": {
+      "selector": "a.summary-item__hed-link"
+    },
+    "topic": {
+      "selector": "span.rubric__name"
+    },
+    "image": {
+      "selector": "img.responsive-image__image"
+    }
+  }
+}

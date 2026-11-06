@@ -1,0 +1,33 @@
+{
+  "name": "BBC News - Business",
+  "source": "https://www.bbc.com",
+  "paths": [
+    "/business"
+  ],
+  "splitter": {
+    "selector": "div[data-testid$=card]:has([data-testid=card-headline]):has(a[href])"
+  },
+  "patterns": {
+    "title": {
+      "selector": "[data-testid=card-headline]"
+    },
+    "description": {
+      "selector": "[data-testid=card-description]"
+    },
+    "date": {
+      "selector": "[data-testid=card-metadata-lastupdated]"
+    },
+    "link": {
+      "selector": "a[href]"
+    },
+    "topic": {
+      "selector": "[data-testid=card-metadata-tag]"
+    },
+    "image": {
+      "selector": "[data-testid=card-media] img:not(.hide-when-no-script)",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

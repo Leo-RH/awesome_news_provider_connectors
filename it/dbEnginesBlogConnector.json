@@ -1,0 +1,26 @@
+{
+  "name": "DB-Engines Blog",
+  "source": "https://db-engines.com",
+  "paths": [
+    "/en/blog"
+  ],
+  "limit": 20,
+  "splitter": {
+    "selector": "div.blog_index"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a.blog_header"
+    },
+    "description": {
+      "selector": "p > p"
+    },
+    "date": {
+      "selector": "span.blog_date",
+      "regex": ",\\s*(\\d{1,2} \\w+ \\d{4})"
+    },
+    "link": {
+      "selector": "a.blog_header"
+    }
+  }
+}

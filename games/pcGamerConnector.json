@@ -1,0 +1,36 @@
+{
+  "name": "PC Gamer",
+  "source": "https://www.pcgamer.com",
+  "paths": [
+    "/news/"
+  ],
+  "splitter": {
+    "selector": "div.listingResult:has(a.article-link)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "div.article-name, h3.article-name"
+    },
+    "description": {
+      "selector": "p.synopsis",
+      "regex": "^(?:News|Features?|Reviews?|Guides?|Opinion)?\\s*(.+)"
+    },
+    "date": {
+      "selector": "time",
+      "attribute": "datetime"
+    },
+    "link": {
+      "selector": "a.article-link"
+    },
+    "topic": {
+      "selector": "a.category-link"
+    },
+    "image": {
+      "selector": "figure img",
+      "attribute": [
+        "data-src",
+        "src"
+      ]
+    }
+  }
+}

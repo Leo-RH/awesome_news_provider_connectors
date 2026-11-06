@@ -1,0 +1,27 @@
+{
+  "name": "OMG! Ubuntu",
+  "source": "https://www.omgubuntu.co.uk",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "div.tile-layout__item"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a.layout__title-link"
+    },
+    "date": {
+      "selector": "div.layout__date"
+    },
+    "link": {
+      "selector": "a.layout__title-link"
+    },
+    "image": {
+      "selector": "img.wp-post-image",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

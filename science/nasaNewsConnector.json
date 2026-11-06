@@ -1,0 +1,30 @@
+{
+  "name": "NASA News",
+  "source": "https://www.nasa.gov",
+  "paths": [
+    "/news/recently-published/"
+  ],
+  "splitter": {
+    "selector": "div.hds-content-item"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a.hds-content-item-heading"
+    },
+    "description": {
+      "selector": "div.hds-content-item-inner > p"
+    },
+    "link": {
+      "selector": "a.hds-content-item-heading"
+    },
+    "topic": {
+      "selector": "div.hds-content-item-inner div.label span"
+    },
+    "image": {
+      "selector": "figure img",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "InfoMoney",
+  "source": "https://www.infomoney.com.br",
+  "paths": [
+    "/ultimas-noticias/"
+  ],
+  "splitter": {
+    "selector": "div.flex-col.gap-4:has(h2 a)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h2 a"
+    },
+    "date": {
+      "selector": "div.mt-3 div.text-xs"
+    },
+    "link": {
+      "selector": "h2 a"
+    },
+    "topic": {
+      "selector": "div.line-clamp-1 a div"
+    },
+    "image": {
+      "selector": "img",
+      "attribute": [
+        "data-src",
+        "src"
+      ]
+    }
+  }
+}

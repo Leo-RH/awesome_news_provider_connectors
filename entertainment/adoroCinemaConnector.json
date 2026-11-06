@@ -1,0 +1,30 @@
+{
+  "name": "AdoroCinema",
+  "source": "https://www.adorocinema.com",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "div.card.news-card"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a.meta-title-link"
+    },
+    "date": {
+      "selector": "div.meta-date"
+    },
+    "link": {
+      "selector": "a.meta-title-link"
+    },
+    "topic": {
+      "selector": "div.meta-category"
+    },
+    "image": {
+      "selector": "img.thumbnail-img",
+      "attribute": [
+        "data-src"
+      ]
+    }
+  }
+}

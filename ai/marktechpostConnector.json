@@ -1,0 +1,27 @@
+{
+  "name": "MarkTechPost",
+  "source": "https://www.marktechpost.com",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "article.mf-card"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a.mf-title"
+    },
+    "link": {
+      "selector": "a.mf-title"
+    },
+    "topic": {
+      "selector": "div.mf-tags a.mf-tag"
+    },
+    "image": {
+      "selector": "a.mf-cover img",
+      "attribute": [
+        "src"
+      ]
+    }
+  }
+}

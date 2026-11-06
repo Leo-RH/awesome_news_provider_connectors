@@ -1,0 +1,28 @@
+{
+  "name": "IGN",
+  "source": "https://www.ign.com",
+  "paths": [
+    "/news"
+  ],
+  "splitter": {
+    "selector": "div.content-item:has(a.item-body)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "span.item-title"
+    },
+    "description": {
+      "selector": "div.item-subtitle",
+      "regex": "-\\s+(.+)"
+    },
+    "date": {
+      "selector": "div.item-publish-date"
+    },
+    "link": {
+      "selector": "a.item-body"
+    },
+    "topic": {
+      "selector": "span.item-more-data a[href^='/games/']"
+    }
+  }
+}
