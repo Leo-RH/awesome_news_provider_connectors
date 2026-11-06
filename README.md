@@ -228,6 +228,17 @@ in the news-provider repository. In short:
 
 ---
 
+## AI assistance
+
+This project was developed with the assistance of
+[Claude](https://www.anthropic.com/claude), Anthropic's AI model, using
+[Claude Code](https://claude.com/claude-code). Claude helped research the
+sources and write and test the connectors. All connectors were reviewed and
+tested by the maintainer, and commits Claude contributed to carry a
+`Co-Authored-By: Claude` trailer.
+
+---
+
 ## License
 
 [MIT](LICENSE)
