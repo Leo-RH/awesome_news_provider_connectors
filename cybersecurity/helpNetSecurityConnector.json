@@ -1,0 +1,25 @@
+{
+  "name": "Help Net Security",
+  "source": "https://www.helpnetsecurity.com",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "div.card.h-100"
+  },
+  "patterns": {
+    "title": {
+      "selector": "div.card-body a[rel=bookmark]"
+    },
+    "date": {
+      "selector": "div.card-body time",
+      "attribute": "datetime"
+    },
+    "link": {
+      "selector": "div.card-body a[rel=bookmark]"
+    },
+    "image": {
+      "selector": "img.wp-post-image"
+    }
+  }
+}

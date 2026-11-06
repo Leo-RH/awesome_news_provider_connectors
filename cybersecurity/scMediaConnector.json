@@ -1,0 +1,32 @@
+{
+  "name": "SC Media",
+  "source": "https://www.scworld.com",
+  "paths": [
+    "/news"
+  ],
+  "splitter": {
+    "selector": "article.teaser-list-item"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a > h1, a > h5"
+    },
+    "description": {
+      "selector": "div.font-body-large > div, div.font-body-regular > div"
+    },
+    "date": {
+      "selector": "time",
+      "attribute": "datetime"
+    },
+    "link": {
+      "selector": "a:has(> h1), a:has(> h5)"
+    },
+    "topic": {
+      "selector": "a[rel=tag]"
+    },
+    "image": {
+      "selector": "a.image-link img",
+      "attribute": ["src"]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "WIRED - Security",
+  "source": "https://www.wired.com",
+  "paths": [
+    "/category/security/"
+  ],
+  "splitter": {
+    "selector": "div.summary-list__items div.summary-item:has(h3.summary-item__hed)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h3.summary-item__hed"
+    },
+    "description": {
+      "selector": "div.summary-item__dek"
+    },
+    "link": {
+      "selector": "a.summary-item__hed-link"
+    },
+    "image": {
+      "selector": "img.responsive-image__image"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "SecurityWeek",
+  "source": "https://www.securityweek.com",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "article.zox-art-wrap.infinite-post"
+  },
+  "patterns": {
+    "title": {
+      "selector": "div.zox-art-title h2"
+    },
+    "description": {
+      "selector": "p.zox-s-graph"
+    },
+    "date": {
+      "selector": "time.post-date",
+      "attribute": "datetime"
+    },
+    "link": {
+      "selector": "div.zox-art-title a"
+    },
+    "image": {
+      "selector": "div.zox-art-img img"
+    }
+  }
+}

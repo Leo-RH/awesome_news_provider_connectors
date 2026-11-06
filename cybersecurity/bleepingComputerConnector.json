@@ -1,0 +1,30 @@
+{
+  "name": "BleepingComputer",
+  "source": "https://www.bleepingcomputer.com",
+  "paths": [
+    "/news/security/"
+  ],
+  "splitter": {
+    "selector": "ul#bc-home-news-main-wrap > li"
+  },
+  "patterns": {
+    "title": {
+      "selector": "div.bc_latest_news_text h4 a"
+    },
+    "description": {
+      "selector": "div.bc_latest_news_text > p"
+    },
+    "date": {
+      "selector": "li.bc_news_date"
+    },
+    "link": {
+      "selector": "div.bc_latest_news_text h4 a"
+    },
+    "topic": {
+      "selector": "div.bc_latest_news_category"
+    },
+    "image": {
+      "selector": "div.bc_latest_news_img img"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "The Register - Security",
+  "source": "https://www.theregister.com",
+  "paths": [
+    "/security/"
+  ],
+  "splitter": {
+    "selector": "article[data-section]:has(a[itemprop=url] h2.headline)"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h2.headline"
+    },
+    "description": {
+      "selector": "p.subtitle"
+    },
+    "date": {
+      "selector": "time",
+      "attribute": "datetime"
+    },
+    "link": {
+      "selector": "a[itemprop=url]"
+    },
+    "image": {
+      "selector": "picture img",
+      "attribute": ["src"]
+    }
+  }
+}

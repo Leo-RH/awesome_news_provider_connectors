@@ -1,0 +1,25 @@
+{
+  "name": "Schneier on Security",
+  "source": "https://www.schneier.com",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "article.post"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h2.entry a"
+    },
+    "description": {
+      "selector": "div.article > p:not(.posted)"
+    },
+    "date": {
+      "selector": "p.posted",
+      "regex": "Posted on (.+?) at"
+    },
+    "link": {
+      "selector": "h2.entry a"
+    }
+  }
+}

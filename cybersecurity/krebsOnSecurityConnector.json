@@ -1,0 +1,27 @@
+{
+  "name": "Krebs on Security",
+  "source": "https://krebsonsecurity.com",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "article.post"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h2.entry-title a"
+    },
+    "description": {
+      "selector": "div.entry-content > p"
+    },
+    "date": {
+      "selector": "span.date"
+    },
+    "link": {
+      "selector": "h2.entry-title a"
+    },
+    "image": {
+      "selector": "div.entry-content img"
+    }
+  }
+}

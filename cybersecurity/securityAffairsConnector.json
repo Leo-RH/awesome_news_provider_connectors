@@ -1,0 +1,31 @@
+{
+  "name": "Security Affairs",
+  "source": "https://securityaffairs.com",
+  "paths": [
+    "/",
+    "/category/hacking"
+  ],
+  "splitter": {
+    "selector": "div.recent-article-card, div.news-card"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h5 a"
+    },
+    "description": {
+      "selector": "div.recent-article-card-cont > p, div.news-card-cont > p"
+    },
+    "date": {
+      "selector": "div.post-time span:nth-of-type(2)"
+    },
+    "link": {
+      "selector": "h5 a"
+    },
+    "topic": {
+      "selector": "span.cat-name, span.category-tag"
+    },
+    "image": {
+      "selector": "div.recent-article-card-pic img, div.news-card-pic img"
+    }
+  }
+}

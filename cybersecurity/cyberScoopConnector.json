@@ -1,0 +1,22 @@
+{
+  "name": "CyberScoop",
+  "source": "https://cyberscoop.com",
+  "paths": [
+    "/"
+  ],
+  "splitter": {
+    "selector": "article.post-item"
+  },
+  "patterns": {
+    "title": {
+      "selector": "a.post-item__title-link"
+    },
+    "link": {
+      "selector": "a.post-item__title-link"
+    },
+    "image": {
+      "selector": "figure.post-item__thumbnail img",
+      "attribute": ["src", "srcset"]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Infosecurity Magazine",
+  "source": "https://www.infosecurity-magazine.com",
+  "paths": [
+    "/news/"
+  ],
+  "splitter": {
+    "selector": "li.webpage-item"
+  },
+  "patterns": {
+    "title": {
+      "selector": "h2.webpage-title a"
+    },
+    "description": {
+      "selector": "p.webpage-summary"
+    },
+    "date": {
+      "selector": "span.webpage-meta time",
+      "attribute": "datetime"
+    },
+    "link": {
+      "selector": "h2.webpage-title a"
+    },
+    "image": {
+      "selector": "img.webpage-thumb"
+    }
+  }
+}
