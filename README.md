@@ -36,6 +36,7 @@ More categories may be added over time.
 | `schneierOnSecurityConnector.json` | [Schneier on Security](https://www.schneier.com) | `/` |
 | `securityAffairsConnector.json` | [Security Affairs](https://securityaffairs.com) | `/`, `/category/hacking` |
 | `securityWeekConnector.json` | [SecurityWeek](https://www.securityweek.com) | `/` |
+| `theHackerNewsConnector.json` | [The Hacker News](https://thehackernews.com) | `/`, `/search/label/Threat%20Intelligence`, `/search/label/Vulnerability`, `/search/label/Cyber%20Attack` |
 | `theRegisterSecurityConnector.json` | [The Register](https://www.theregister.com) | `/security/` |
 | `wiredSecurityConnector.json` | [WIRED](https://www.wired.com) | `/category/security/` |
 
@@ -78,3 +79,9 @@ in the news-provider repository. In short:
 > Websites change their HTML from time to time. If a connector stops
 > returning articles, its selectors probably need updating. Issues and pull
 > requests are welcome.
+
+---
+
+## License
+
+[MIT](LICENSE)
